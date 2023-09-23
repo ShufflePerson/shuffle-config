@@ -5,6 +5,7 @@ require("shuffle.colors");
 require("shuffle.treesitter");
 require("shuffle.lsp");
 require("shuffle.feline");
+require("shuffle.transparent");
 
 --a  add
 --r rename

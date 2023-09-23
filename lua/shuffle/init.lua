@@ -19,7 +19,6 @@ require("nvim-tree").setup({
 vim.cmd [[packadd packer.nvim]]
 
 
-require("transparent")
 
 return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
