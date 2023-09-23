@@ -5,7 +5,7 @@
 ### Linux
 
 ```
-mkddir ~/.config/nvim/
+mkdir ~/.config/nvim/
 git clone https://github.com/ShufflePerson/shuffle-config.git ~/.config/nvim/
 ```
 
