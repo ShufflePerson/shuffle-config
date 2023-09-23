@@ -1,0 +1,14 @@
+vim.opt.relativenumber = true
+vim.opt.so=999
+vim.opt.binary = true
+vim.opt.shiftwidth=4
+vim.opt.ignorecase = true
+vim.opt.incsearch = true
+vim.opt.smartcase = true
+vim.opt.linebreak = true
+vim.opt.laststatus=2
+vim.opt.ruler = true
+vim.opt.wildmenu = true
+vim.opt.cursorline = true
+vim.opt.mouse=a 
+vim.opt.history=1000
