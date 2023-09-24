@@ -19,3 +19,6 @@ nvim
 :qa
 nvim
 ```
+
+## Screenshots
+![Screenshot](https://media.discordapp.net/attachments/1131991550977646612/1155436648537002004/image.png?width=1697&height=710)
