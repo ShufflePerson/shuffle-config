@@ -3,22 +3,11 @@ vim.g.loaded_netrwPlugin = 1
 
 vim.opt.termguicolors = true
 
-require("nvim-tree").setup({
-  sort_by = "case_sensitive",
-  view = {
-    width = 70,
-  },
-  renderer = {
-    group_empty = true,
-  },
-  filters = {
-    dotfiles = true,
-  },
-})
 
 vim.cmd [[packadd packer.nvim]]
 
 
+require("transparent")
 
 return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
@@ -41,4 +30,5 @@ return require('packer').startup(function(use)
     use({"nvim-tree/nvim-tree.lua"})
     use "xiyaowong/transparent.nvim"
     use "feline-nvim/feline.nvim"
+    use "voldikss/vim-floaterm"
 end)

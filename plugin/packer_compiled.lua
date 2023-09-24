@@ -153,6 +153,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/shuffle/.local/share/nvim/site/pack/packer/start/transparent.nvim",
     url = "https://github.com/xiyaowong/transparent.nvim"
+  },
+  ["vim-floaterm"] = {
+    loaded = true,
+    path = "/home/shuffle/.local/share/nvim/site/pack/packer/start/vim-floaterm",
+    url = "https://github.com/voldikss/vim-floaterm"
   }
 }
 

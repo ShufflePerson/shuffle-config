@@ -6,6 +6,10 @@ require("shuffle.treesitter");
 require("shuffle.lsp");
 require("shuffle.feline");
 require("shuffle.transparent");
+require("shuffle.terminal");
+require("shuffle.nvim_tree");
+
+vim.cmd("E")
 
 --a  add
 --r rename
