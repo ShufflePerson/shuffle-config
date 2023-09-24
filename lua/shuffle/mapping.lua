@@ -20,6 +20,9 @@ vim.cmd(":command! E NvimTreeOpen")
 vim.cmd(":command! T FloatermNew")
 vim.cmd(":command! Comp FloatermNew --autoclose=0 gcc % -o %< && ./%<")
 
+
+vim.cmd("tnoremap <Esc> <C-\\><C-n>")
+
 --New windows, quit windows
 vim.keymap.set('n', 'n', ':vsp<CR>', { noremap = true })
 vim.keymap.set('n', 'N', ':sp<CR>', { noremap = true })
