@@ -10,7 +10,6 @@ require("shuffle.terminal");
 require("shuffle.nvim_tree");
 
 vim.cmd("E")
-
 --a  add
 --r rename
 --d delete
