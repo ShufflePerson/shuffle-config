@@ -24,9 +24,9 @@ vim.cmd(":command! Comp FloatermNew --autoclose=0 gcc % -o %< && ./%<")
 vim.cmd("tnoremap <Esc> <C-\\><C-n>")
 
 --New windows, quit windows
-vim.keymap.set('n', 'n', ':vsp<CR>', { noremap = true })
-vim.keymap.set('n', 'N', ':sp<CR>', { noremap = true })
-vim.keymap.set('n', 'Q', ':q<CR>', { noremap = true })
+vim.keymap.set('n', '<leader>n', ':vsp<CR>', { noremap = true })
+vim.keymap.set('n', '<leader>N', ':sp<CR>', { noremap = true })
+vim.keymap.set('n', '<leader>Q', ':q<CR>', { noremap = true })
 
 --Shift arrows
 vim.keymap.set('n', '<S-Left>', '<C-Left>', { noremap = true })
